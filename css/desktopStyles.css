@@ -330,7 +330,15 @@ button:hover {
     }
 
     button {
-        width: 200px;
+        width: 140px;
+    }
+
+    .textButtonDark {
+        font-size: 15px;
+    }
+
+    .textButtonLight {
+        font-size: 15px;
     }
 
     button.copy{
