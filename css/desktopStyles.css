@@ -274,6 +274,10 @@ button:hover {
         justify-content: center;
     }
 
+    header {
+        font-size: 10px;
+    }
+
     footer {
         right: auto;
         top: 800px;
