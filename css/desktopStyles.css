@@ -280,7 +280,7 @@ button:hover {
 
     footer {
         right: auto;
-        top: 800px;
+        top: 700px;
         height: 80px;
     }
 
@@ -298,7 +298,7 @@ button:hover {
         min-height: 133px;
 
         right: auto;
-        top: 580px;
+        top: 480px;
         bottom: auto;
 
         /* Layout */
@@ -316,6 +316,7 @@ button:hover {
     }
 
     .frameDefaultMessage {
+        width: auto;
         top: auto;
     }
 
@@ -324,8 +325,9 @@ button:hover {
     }
 
     .frameAdvice {
+        width: 80%;
         margin: auto;
-        top: 250px;
+        top: 80px;
     }
 
     .frameButtons {
@@ -338,7 +340,7 @@ button:hover {
         height: 67px;
         bottom: auto;
         margin: auto;
-        top: 500px;
+        top: 400px;
     }
 
     button {
