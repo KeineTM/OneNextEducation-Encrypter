@@ -174,7 +174,8 @@ textarea {
     width: 229px;
     height: 18px;
     margin-left: 10%;
-    top: 550px;
+    margin-bottom: 150px;
+    bottom: 0;
 }
 
 /* Advice message style */
@@ -340,7 +341,8 @@ button:hover {
 
     .frameAdvice {
         width: 80%;
-        margin: auto;
+        margin-bottom: 320px;
+        margin-left: auto;
         top: 380px;
     }
 
