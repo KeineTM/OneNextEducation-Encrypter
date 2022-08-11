@@ -320,6 +320,11 @@ button:hover {
         top: auto;
     }
 
+    .message{
+        width: auto;
+        height: auto;
+    }
+
     .defaultImg {
         display: none;
     }
