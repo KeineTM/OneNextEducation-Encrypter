@@ -1,0 +1,266 @@
+/* Figma based stylesheet for Tablet with min-resolution: 600px and max-resolution 1089px*/
+body {
+    margin: 0;
+    margin-bottom: 0px;
+    background: #E5E5E5;
+    font-family: 'Franklin Gothic Book';
+    font-style: normal;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    font-family: consolas;
+	width: 100%;
+	height: 35px;
+
+	color: #efefef;
+	background-color: #0A3871;
+}
+
+/* ----- Footer with professional info ----- */
+footer {
+	width: 100%;
+	height: 60px;
+
+    /* Layout */
+    position: absolute;
+    display: flex; /* flex */
+    justify-content: space-between;
+
+	color: #efefef;
+	background-color: #0A3871;
+	bottom: 0;
+    top: 1250px;
+}
+
+footer p {
+    font-family: consolas;
+    font-size: 15px;
+    margin: 0.5rem 1rem;
+}
+
+/* ----- Alura Logo Frame ----- */
+.frameLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+/* Alura Logo inside frame */
+.logo {
+    position: absolute;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+}
+
+/* ----- Menu ----- */
+
+/* ----- Input Text ----- */
+input {
+    position: absolute;
+    width: 70%; /* Cambio */
+    height: 48px;
+    left: 10%;
+    top: 168px;
+
+    font-size: 30px;
+    line-height: 150%;
+
+    color: #0A3871;
+    border-style: none;
+    background-color: #E5E5E5;
+}
+
+/* White rectangle container */
+.rect1 {
+    position: absolute;
+    min-width: 680px; /* Cambio */
+    min-height: 133px;
+
+    top: 900px;
+
+
+    /* Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+/* ----- Output Text ----- */
+textarea {
+    display: flex;
+    width: 600px; /* Cambio */
+    margin: 10px 0;
+    height: 200px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #495057;
+}
+
+/* ----- Frame 5: Default message screen ----- */
+.frameDefaultMessage {
+    display: flex;
+    flex-direction: column;
+ 
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    width: 350px;
+    height: 122px;
+    /* Cambio */
+}
+
+.message {
+    width: 350px;
+    height: 58px;
+
+    font-family: 'Franklin Gothic Medium';
+    font-size: 32px;
+    line-height: 120%;
+
+    text-align: center;
+
+    color: #343A40;
+}
+
+.text {
+    width: 350px;
+    height: 48px;
+
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #495057;
+}
+
+/* ----- Default image: muñeco ----- */
+.defaultImg {
+    display: none; /* Cambio */
+}
+
+/* ----- Frame 1: for advice message ----- */
+.frameAdvice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    bottom: 0;
+    
+}
+
+/* Advice message style */
+.textAdvice {
+    width: 205px;
+    height: 18px;
+
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #495057;
+
+    opacity: 0.8;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* ----- Frame 3: for buttons ----- */
+.frameButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*cambio*/
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+
+    top: 800px; /* Cambio */
+
+}
+
+/* Button's style */
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    bottom: 0;
+
+    width: 250px;
+    height: 67px;
+}
+
+button.copy{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+button.dark {
+    background: #0A3871;
+    border-radius: 24px;
+}
+
+button.light {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+/* Inner button text style */
+.textButtonDark {
+    width: 250px;
+    height: 19px;
+
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.textButtonLight {
+    width: 250px;
+    height: 19px;
+    
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #0A3871;
+}

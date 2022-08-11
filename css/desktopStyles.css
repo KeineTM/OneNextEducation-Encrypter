@@ -1,0 +1,337 @@
+/* Figma based stylesheet for Desktop with min-resolution: 1090px*/
+body {
+    margin: 0;
+    background: #E5E5E5;
+    font-family: 'Franklin Gothic Book';
+    font-style: normal;
+    font-weight: 400;
+}
+
+header {
+    font-family: consolas;
+	width: 100%;
+	height: 35px;
+
+	color: #efefef;
+	background-color: #0A3871;
+}
+
+/* ----- Footer with professional info ----- */
+footer {
+	width: 100%;
+	height: 60px;
+
+    /* Layout */
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+	color: #efefef;
+	background-color: #0A3871;
+	bottom: 0;
+}
+
+footer p {
+    font-family: consolas;
+    font-size: 15px;
+    margin: 0.5rem 1rem;
+}
+
+/* ----- Alura Logo Frame ----- */
+.frameLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+/* Alura Logo inside frame */
+.logo {
+    position: absolute;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+}
+
+/* ----- Menu ----- */
+
+/* ----- Input Text ----- */
+input {
+    position: absolute;
+    width: 40%;
+    height: 48px;
+    left: 10%;
+    top: 168px;
+
+    font-size: 30px;
+    line-height: 150%;
+
+    color: #0A3871;
+    border-style: none;
+    background-color: #E5E5E5;
+}
+
+/* White rectangle container */
+.rect1 {
+    position: absolute;
+    min-width: 400px;
+
+    right: 5%;
+    top: 50px;
+    bottom: 73px;
+
+
+    /* Layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+/* ----- Output Text ----- */
+textarea {
+    width: 80%;
+    height: 65%;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #495057;
+
+    border: none;
+    outline: none;
+}
+
+/* ----- Frame 5: Default message screen ----- */
+.frameDefaultMessage {
+    display: flex;
+    flex-direction: column;
+ 
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    width: 350px;
+    height: 122px;
+    top: 60%;
+}
+
+.message {
+    width: 350px;
+    height: 58px;
+
+    font-family: 'Franklin Gothic Medium';
+    font-size: 32px;
+    line-height: 120%;
+
+    text-align: center;
+
+    color: #343A40;
+}
+
+.text {
+    width: 350px;
+    height: 48px;
+
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #495057;
+}
+
+/* ----- Default image: muñeco ----- */
+.defaultImg {
+    position: absolute;
+    width: 250px;
+    height: 226px;
+    top: 20%;
+}
+
+/* ----- Frame 1: for advice message ----- */
+.frameAdvice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    bottom: 0;
+    margin-left: 10%;
+    margin-bottom: 150px;
+}
+
+/* Advice message style */
+.textAdvice {
+    width: 205px;
+    height: 18px;
+
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #495057;
+
+    opacity: 0.8;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* ----- Frame 3: for buttons ----- */
+.frameButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    bottom: 0;
+    margin-left: 10%;
+    margin-bottom: 80px;
+}
+
+/* Button's style */
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 250px;
+    height: 67px;
+}
+
+button.copy{
+    position: absolute;
+    bottom: 10px;
+}
+
+button.dark {
+    background: #0A3871;
+    border-radius: 24px;
+}
+
+button.light {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+/* Inner button text style */
+.textButtonDark {
+    width: 250px;
+    height: 19px;
+
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.textButtonLight {
+    width: 250px;
+    height: 19px;
+    
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #0A3871;
+}
+
+@media screen and (max-width: 1089px) {
+    body {
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        top: 1200px;
+    }
+
+    input {
+        width: 70%;
+    }
+
+    .rect1 {
+        min-width: 680px;
+        min-height: 133px;
+
+        right: auto;
+        top: 900px;
+        bottom: auto;
+
+        /* Layout */
+        flex-direction: column;
+    }
+
+    textarea {
+        display: flex;
+
+        width: 600px;
+        height: 200px;
+
+        margin: 10px 0;
+    }
+
+    .frameDefaultMessage {
+        top: auto;
+    }
+
+    .defaultImg {
+        display: none;
+    }
+
+    .frameAdvice {
+        margin: auto;
+    }
+
+    .frameButtons {
+        justify-content: space-between;
+        padding: 0px;
+        gap: 24px;
+
+        position: absolute;
+        width: 680px;
+        height: 67px;
+        bottom: auto;
+        margin: auto;
+        top: 800px;
+    }
+
+    button.copy{
+        position: relative;
+        margin-bottom: 10px;
+        bottom: auto;
+    }
+
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Import Responsive CSS stylesheet-->
+    <link rel="stylesheet" type="text/css" href="css/desktopStyles.css"/>
+    <!-- With tablet media query properties -->
+    <link rel="stylesheet" media="screen and (min-width: 600px) and (max-width: 1089px)"/>
+
+    <!-- Javascript functions -->
+    <script type="text/javascript" src="js/functions.js"></script>
+    
+    <title>Encriptador ALURA</title>
+</head>
+
+<header><br><center>Alura Challenge Sprint 01: Construye un encriptador</center></header>
+
+<body>
+
+    <!-- Alura Logo -->
+    <div class="frameLogo" id="frameLogo">
+        <img src="img/Vector.png" alt="Logo Alura" width="31.09" height="44" class="logo">
+    </div>
+
+    <!-- Input text to encrypt -->
+    <input type="text" id="inputText" placeholder="Ingrese su texto aquí" autofocus value="GATO">
+
+    <!-- Advice for user -->
+    <section class="frameAdvice">
+        <img src="img/alerta.png" alt="Símbolo de alerta" width="16" height="16">
+        <p class="textAdvice">Sólo letras minúsculas y sin acentos.</p>
+    </section>
+
+    <!-- Buttons's frame -->
+    <div class="frameButtons">
+        <button class="light" id="letsEncrypt" onclick="buttonEncryptEvent()"><span class="textButtonLight">Encriptar</span></button>
+        <button class="dark" id="deEncrypt" onclick="buttonDencryptEvent()"><span class="textButtonDark">Desencriptar</span></button>
+    </div>
+
+    <!-- Dencrypt  white frame -->
+    <div class="rect1">
+        <!-- Default white frame message -->
+        <div class="frameDefaultMessage" id="defaultMessage">
+            <span class="message">Ningún mensaje encontrado</span>
+            <span class="text">Ingresa el texto que desees encriptar o desencriptar.</span>
+        </div>
+
+        <!-- Output encrypted text hidden by default -->
+        <textarea class="outputText" id="outputText" cols="30" rows="10" readonly="readonly" style="display: none;"></textarea>
+        
+        <!-- Default img -->
+        <img class="defaultImg" id="muneco" src="img/Muneco.png" alt="No hay texto para encriptar" width="336" height="304">
+    
+        <!-- Copy button hidden by default -->
+        <button class="light copy" id="copyButton" style="display: none;" onclick="copyButton()"><span class="textButtonLight">Copiar</span></button>
+    </div>
+    
+    <footer>
+        <p>
+            Jessica Trejo Méndez<br>
+            Agosto 2022
+        </p>
+        <p>
+            Contacto: <br>
+            <a href="https://github.com/KeineTM"><img src="img/GitHub-Logo.png" alt="GitHub Account" width="50" ></a> | <a href="https://www.linkedin.com/in/jessica-tm/"><img src="img/pngwing.com.png" alt="LinkedIn Account" width="20" ></a>
+        </p>
+        <p>
+            Challenge ONE Principiante en programación G3 ONE
+        </p>
+    </footer>
+</body>
+</html>
