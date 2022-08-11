@@ -275,7 +275,7 @@ button:hover {
     }
 
     footer {
-        top: 1200px;
+        top: 950px;
     }
 
     input {
@@ -283,11 +283,11 @@ button:hover {
     }
 
     .rect1 {
-        min-width: 680px;
+        width: 90%;
         min-height: 133px;
 
         right: auto;
-        top: 900px;
+        top: 680px;
         bottom: auto;
 
         /* Layout */
@@ -313,6 +313,7 @@ button:hover {
 
     .frameAdvice {
         margin: auto;
+        top: 450px;
     }
 
     .frameButtons {
@@ -321,11 +322,15 @@ button:hover {
         gap: 24px;
 
         position: absolute;
-        width: 680px;
+        width: 90%;
         height: 67px;
         bottom: auto;
         margin: auto;
-        top: 800px;
+        top: 600px;
+    }
+
+    button {
+        width: 200px;
     }
 
     button.copy{
