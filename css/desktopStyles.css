@@ -134,7 +134,7 @@ textarea {
     height: 58px;
 
     font-family: 'Franklin Gothic Medium';
-    font-size: 32px;
+    font-size: 23px;
     line-height: 120%;
 
     text-align: center;
@@ -146,7 +146,7 @@ textarea {
     width: 350px;
     height: 48px;
 
-    font-size: 16px;
+    font-size: 12px;
     line-height: 150%;
 
     text-align: center;
@@ -317,7 +317,7 @@ button:hover {
     }
 
     .frameDefaultMessage {
-        width: 70%;
+        max-width: 150px;
         top: auto;
         gap: 0;
     }
