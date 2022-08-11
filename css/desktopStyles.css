@@ -19,7 +19,7 @@ header {
 /* ----- Footer with professional info ----- */
 footer {
 	width: 100%;
-	height: 60px;
+	height: 70px;
 
     /* Layout */
     position: absolute;
@@ -275,19 +275,24 @@ button:hover {
     }
 
     footer {
-        top: 950px;
+        top: 800px;
+    }
+
+    footer p {
+        font-size: 12px;
     }
 
     input {
+        font-size: 20px;
         width: 70%;
     }
 
     .rect1 {
-        width: 90%;
+        width: 80%;
         min-height: 133px;
 
         right: auto;
-        top: 680px;
+        top: 580px;
         bottom: auto;
 
         /* Layout */
@@ -313,7 +318,7 @@ button:hover {
 
     .frameAdvice {
         margin: auto;
-        top: 450px;
+        top: 250px;
     }
 
     .frameButtons {
@@ -322,11 +327,11 @@ button:hover {
         gap: 24px;
 
         position: absolute;
-        width: 90%;
+        width: 80%;
         height: 67px;
         bottom: auto;
         margin: auto;
-        top: 600px;
+        top: 500px;
     }
 
     button {
