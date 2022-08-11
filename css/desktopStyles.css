@@ -295,7 +295,7 @@ button:hover {
 
     .rect1 {
         width: 80%;
-        min-width: none;
+        min-width: 50px;
         min-height: 133px;
 
         right: auto;
