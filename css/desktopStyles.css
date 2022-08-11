@@ -309,20 +309,25 @@ button:hover {
         display: flex;
         font-size: 20px;
 
-        width: 80%;
+        width: auto;
         height: 80px;
 
         margin: 10px 0;
     }
 
     .frameDefaultMessage {
-        width: auto;
+        width: 70%;
         top: auto;
+        gap: 0;
     }
 
     .message{
         width: auto;
         height: auto;
+    }
+
+    .text {
+        width: auto;
     }
 
     .defaultImg {
@@ -332,7 +337,7 @@ button:hover {
     .frameAdvice {
         width: 80%;
         margin: auto;
-        top: 80px;
+        top: 70px;
     }
 
     .frameButtons {
