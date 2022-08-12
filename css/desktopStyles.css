@@ -63,11 +63,17 @@ footer p {
 
 /* ----- Menu ----- */
 
+textarea {
+    border: none;
+    outline: none;
+    resize: none;
+}
+
 /* ----- Input Text ----- */
-input {
+.inputText {
     position: absolute;
     width: 40%;
-    height: 48px;
+    height: auto;
     left: 10%;
     top: 168px;
 
@@ -75,7 +81,6 @@ input {
     line-height: 150%;
 
     color: #0A3871;
-    border-style: none;
     background-color: #E5E5E5;
 }
 
@@ -101,7 +106,7 @@ input {
 }
 
 /* ----- Output Text ----- */
-textarea {
+.outputText {
     width: 80%;
     height: 65%;
 
@@ -110,9 +115,6 @@ textarea {
     line-height: 150%;
 
     color: #495057;
-
-    border: none;
-    outline: none;
 }
 
 /* ----- Frame 5: Default message screen ----- */
@@ -288,7 +290,7 @@ button:hover {
         font-size: 12px;
     }
 
-    input {
+    .inputText {
         font-size: 20px;
         width: 70%;
     }
@@ -307,7 +309,7 @@ button:hover {
         flex-direction: column;
     }
 
-    textarea {
+    .outputText {
         display: flex;
         font-size: 20px;
 

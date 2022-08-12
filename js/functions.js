@@ -37,7 +37,7 @@ const encryptText = (text = "") => {
 
 // Function for buttonEncrypt
 const buttonEncryptEvent = () => {
-    input = document.querySelector("input").value.toLocaleLowerCase();
+    input = document.querySelector(".inputText").value.toLocaleLowerCase();
     if (validateText(input)) { // Validate
         // Encrypt
         output = encryptText(input);
@@ -66,8 +66,8 @@ const copyButton = () => {
     // Not recommended since it's officially obsolete!
     document.execCommand("copy"); 
 
-    document.querySelector("input").value = ""; // Clear input value
-    document.querySelector("input").focus(); // Focus input area
+    document.querySelector(".inputText").value = ""; // Clear input value
+    document.querySelector(".inputText").focus(); // Focus input area
 }
 
 
@@ -91,7 +91,7 @@ const dencryptText = (text = "") => {
 
 // Function for buttonDencrypt
 const buttonDencryptEvent = () => {
-    input = document.querySelector("input").value.toLocaleLowerCase();
+    input = document.querySelector(".inputText").value.toLocaleLowerCase();
     if (validateText(input)) { // Validate
         // Dencrypt
         output = dencryptText(input);
