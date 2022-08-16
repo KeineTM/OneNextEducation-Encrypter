@@ -10,7 +10,7 @@ let output;
 // Text validation
 const validateText = (text = "") => {
     let result;
-    let regex = new RegExp(/^[a-zA-Z\s]+$/g); // Regular expression for only admit letters y white spaces
+    let regex = new RegExp(/^[a-zA-Z,.:ñÑ"\s]+$/g); // Regular expression for only admit letters y white spaces
 
     (!text) // Validate if exist a text
         ? alert ("No se ingresó ningún texto.") // If does not
